@@ -1,1 +1,5 @@
-console.log('Hello, design patterns!')
+const PatternName = process.argv[2]
+
+const Pattern = require(`./${PatternName}`)
+
+Pattern.runExampĺe()
