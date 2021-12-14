@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-learning-nodejs-design-patterns",
+  "version": "1.0.0",
+  "description": "A repository of Design Patterns studies, whose concept is based on OOP and described by Gang of Four.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsmanRodrigues/linkedin-learning-nodejs-design-patterns.git"
+  },
+  "author": "OsmanRodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsmanRodrigues/linkedin-learning-nodejs-design-patterns/issues"
+  },
+  "homepage": "https://github.com/OsmanRodrigues/linkedin-learning-nodejs-design-patterns#readme"
+}
