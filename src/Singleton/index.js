@@ -1,3 +1,8 @@
+/** 
+ * The Singleton pattern allow us to use a single instance of 
+ * an object throughout an application. It's helpful to save 
+ * memory and give more control of methods execution.
+ **/
 const logger = require('./Logger'),
   Shopper = require('./Shopper'),
   Store = require('./Store');
