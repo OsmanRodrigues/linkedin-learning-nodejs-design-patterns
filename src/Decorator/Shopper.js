@@ -22,5 +22,7 @@ class Shopper {
     });
     console.log(`${this.name} has $${this.account.toFixed(2)} remaining.`);
   }
-  
+
 }
+
+module.exports = Shopper;

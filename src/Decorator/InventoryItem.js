@@ -33,3 +33,9 @@ class DiamondInventoryItem {
   }
 
 }
+
+module.exports = {
+  InventoryItem,
+  GoldenInventoryItem,
+  DiamondInventoryItem
+};
