@@ -6,7 +6,7 @@ class InventoryItem {
   }
 
   print() {
-    console.log(`${this.name} costs ${this.price}.`)
+    console.log(`${this.name} costs ${this.price}.`);
   }
 
 }
