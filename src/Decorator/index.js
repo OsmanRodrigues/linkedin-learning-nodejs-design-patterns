@@ -1,3 +1,8 @@
+/** 
+ * The Decorator pattern allow us to modify a base object
+ * giving to it other properties and/or methods at runtime 
+ * execution. It's helpful for making dynamic changes.
+ **/
 const Shopper = require('./Shopper'),
   { 
     InventoryItem,
