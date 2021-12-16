@@ -4,5 +4,6 @@
 
 ### Patterns Names List
 
-<li>Singleton</li>
 <Li>Decorator</li>
+<li>Singleton</li>
+<li>Strategy</>

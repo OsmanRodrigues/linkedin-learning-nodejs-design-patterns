@@ -1,3 +1,8 @@
+/**
+ * The Strategy is the most dynamic pattern, as it allows us to define 
+ * algorithms (strategies) and select the desired one at runtime. It's 
+ * useful for many control flows. 
+ **/
 const logger = require('./Logger');
 
 const runExample = () => {
