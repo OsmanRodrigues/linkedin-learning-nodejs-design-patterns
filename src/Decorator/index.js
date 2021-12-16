@@ -10,7 +10,7 @@ const Shopper = require('./Shopper'),
     DiamondInventoryItem
   } = require('./InventoryItem');
 
-const runExampĺe = () => {
+const runExample = () => {
   const adventurer = new Shopper('Osman', 5000);
   const items = {
     sword: new InventoryItem("Sword", 250),
@@ -32,4 +32,4 @@ const runExampĺe = () => {
 
 };
 
-module.exports = { runExampĺe };
+module.exports = { runExample };

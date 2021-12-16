@@ -7,7 +7,7 @@ const logger = require('./Logger'),
   Shopper = require('./Shopper'),
   Store = require('./Store');
 
-const runExampĺe = () => {
+const runExample = () => {
   
   logger.log('Starting app...');
   
@@ -26,9 +26,8 @@ const runExampĺe = () => {
   ]);
   
   logger.log('Finished config...')
-  
   logger.log(`${logger.count} logs total.`);
 
-}
+};
 
-module.exports = { runExampĺe }
+module.exports = { runExample };
