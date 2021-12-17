@@ -1,3 +1,8 @@
+/**The Composite pattern allows us to organize your objects in 
+ * a way that treats single items and group of these items uniformly. 
+ * It's useful to perform same operation on an individual element 
+ * as we would a group of elements. 
+ **/
 const CatalogGroup = require("./CatalogGroup");
 const CatalogItem = require("./CatalogItem");
 
