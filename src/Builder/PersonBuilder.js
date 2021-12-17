@@ -1,3 +1,5 @@
+const Person = require("./Person");
+
 class PersonBuilder {
   constructor(name) {
     this.name = name;
@@ -27,6 +29,10 @@ class PersonBuilder {
   withShoppingList(list=[]) {
     this.shoppingList = list;
     return this;
+  }
+  
+  build() {
+    return new Person(this);
   }
   
 }
