@@ -1,3 +1,9 @@
+/** The Builder pattern allows us to break down the 
+ * construction of complex object into separate concerns. 
+ * It's useful when we need customize object instances 
+ * that we will create. It's a response to the antipattern 
+ * named telecope constructor. 
+ **/
 const PersonBuilder = require("./PersonBuilder");
 
 //Employees
