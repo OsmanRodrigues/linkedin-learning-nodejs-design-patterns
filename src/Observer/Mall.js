@@ -1,11 +1,13 @@
+//Observer
 class Mall {
 
-  constructor() {
-    this.sales = [];
+  constructor(name) {
+    this.name = name;
+    this.stores = [];
   }
 
   notify(storeName, discount) {
-    this.sales.push({ storeName, discount });
+    this.stores.push({ storeName, discount });
   }
 
 }
