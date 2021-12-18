@@ -1,3 +1,11 @@
+/**
+ * "The Observer pattern is defined by a one-to-many dependency between 
+ * objects so that when one object changes state, all it's dependents 
+ * are notified and updated automatically", by: Gang of Four. It's a useful 
+ * pattern to implement a subscription (observable) and subscriber (observer) 
+ * logic, common applicable in newslatters and others on-demand content delivery 
+ * strategies.  
+ **/
 const Mall = require("./Mall");
 const Shopper = require("./Shopper");
 const Store = require("./Store");
