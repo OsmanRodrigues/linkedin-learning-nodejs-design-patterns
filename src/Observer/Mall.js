@@ -4,6 +4,10 @@ class Mall {
     this.sales = [];
   }
 
+  notify(storeName, discount) {
+    this.sales.push({ storeName, discount });
+  }
+
 }
 
 module.exports = Mall;
