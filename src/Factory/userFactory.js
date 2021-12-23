@@ -2,7 +2,7 @@ const Employee = require("./Employee");
 const Shopper = require("./Shopper");
 
 const userFactory = (
-  type = 'employee' | 'shopper',
+  type = 'employee' || 'shopper',
   name,
   money = 0,
   employer = 'Not informed'
@@ -17,7 +17,7 @@ const userFactory = (
       return new Shopper(name, money);
     
     default:
-      throw Error('Type must be provided');
+      throw Error('A valid user type must be provided.');
   }
   
 }
