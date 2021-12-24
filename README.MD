@@ -4,6 +4,7 @@
 
 ### Patterns Names List
 
+<li>Adapter</li>
 <li>Builder</li>
 <li>Composite</li>
 <li>Decorator</li>

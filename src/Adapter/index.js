@@ -1,7 +1,12 @@
+/** The Adapter pattern allow us to make incompatible classes 
+ * become compatilble, when we take an object, keep its interface, 
+ * but adapt it to a new environment or solution. It's useful to 
+ * keep your code base adptable, compatible and reusable. 
+ **/
 const localStorage = require('./LocalStorage');
 
 const runExample = () => {
-  
+
   console.log('Local storage length: ', localStorage.length);
 
   const uid = localStorage.getItem('userId');
