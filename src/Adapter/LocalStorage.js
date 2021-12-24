@@ -1,9 +1,11 @@
-import {existsSync, readFileSync, unlink, writeFile} from 'fs'
+const { existsSync, readFileSync, unlink, writeFile } = require('fs');
 
 class LocalStorage {
-  storageFilaName = 'localStorage.json'
 
+  
   constructor() {
+    this.storageFilaName = 'localStorage.json'
+    
     if (existsSync(this.storageFilaName)) {
       console.log(`Loading items from ${this.storageFilaName}`);
       const txtStorageContent = readFileSync(this.storageFilaName);
@@ -36,6 +38,9 @@ class LocalStorage {
       console.log(`${this.storageFilaName} file removed.`);
     })
   }
+
 }
 
-module.exports = LocalStorage;
+const localStorage = new LocalStorage();
+
+module.exports = localStorage;
