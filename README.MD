@@ -6,6 +6,7 @@
 
 <li>Adapter</li>
 <li>Builder</li>
+<li>ChainOfResponsibility</li>
 <li>Composite</li>
 <li>Decorator</li>
 <li>Factory</li>
