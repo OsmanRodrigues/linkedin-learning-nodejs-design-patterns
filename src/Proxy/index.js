@@ -1,4 +1,5 @@
 const FSProxy = require('./FSProxy');
+const path = require('path');
 
 const runExample = () => {
   const fs = new FSProxy();
@@ -18,7 +19,7 @@ const runExample = () => {
       ${contents}
     `)
   }
-
+  //Commment the line below to avoid invalid file read error
   fs.readFile(txtFile, format, result);
   fs.readFile(mdFile, format, result);
 
