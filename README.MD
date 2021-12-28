@@ -12,5 +12,6 @@
 <li>Factory</li>
 <li>Observer</li>
 <li>Prototype</li>
+<li>Proxy</li>
 <li>Singleton</li>
 <li>Strategy</li>

@@ -1,3 +1,10 @@
+/** The Proxy design pattern is a object that controls 
+ * access to another object. It's similar to Prototype 
+ * pattern, that is necessary implement all methods of 
+ * controlled object. It's useful to adapt and get more 
+ * control of source code dependencies and implementations. 
+ **/
+
 const FSProxy = require('./FSProxy');
 const path = require('path');
 
