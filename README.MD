@@ -11,5 +11,6 @@
 <li>Decorator</li>
 <li>Factory</li>
 <li>Observer</li>
+<li>Prototype</li>
 <li>Singleton</li>
 <li>Strategy</li>

@@ -1,3 +1,9 @@
+/**The Prototype design pattern allow us to create similar 
+ * objects from a unique instance called prototype in a clone 
+ * proccess. It's useful to help us to eliminate redundancy 
+ * and save time on setup very complicated objects of similar 
+ * design. 
+ **/
 const scoutPrototype = require("./scoutPrototype");
 
 const runExample = () => {
