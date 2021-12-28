@@ -1,6 +1,6 @@
 ## Getting Started
 
-    Run: `npm start <PatternName>`
+    Run: npm start <PatternName>
 
 ### Patterns Names List
 
