@@ -1,9 +1,9 @@
 const Shopper = require("./Shopper");
 
-const scout = new Shopper();
-scout.addItemToList('camp knife');
-scout.addItemToList('tent');
-scout.addItemToList('backpack');
-scout.addItemToList('map');
+const scoutPrototype = new Shopper();
+scoutPrototype.addItemToList('camp knife');
+scoutPrototype.addItemToList('tent');
+scoutPrototype.addItemToList('backpack');
+scoutPrototype.addItemToList('map');
 
-module.exports = scout;
+module.exports = scoutPrototype;
