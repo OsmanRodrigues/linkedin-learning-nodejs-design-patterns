@@ -1,7 +1,9 @@
+const fs = require('fs');
+
 class FSProxy {
 
-  constructor(fsSubject) {
-    this.fs = fsSubject;
+  constructor() {
+    this.fs = fs;
   }
 
   readFile(path, format, callback) {
