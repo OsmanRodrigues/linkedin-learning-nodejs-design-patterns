@@ -11,4 +11,4 @@ class Inventory{
 
 }
 
-modules.exports = Inventory;
+module.exports = Inventory;

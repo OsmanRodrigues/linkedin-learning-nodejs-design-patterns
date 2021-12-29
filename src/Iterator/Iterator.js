@@ -11,7 +11,8 @@ class Iterator {
   }
   
   last() {
-    const lastItemIndex = this.items[this.items.length - 1];
+    const lastItemIndex = this.items.length > 0 ?
+      this.items.length - 1 : this.items.length;
     const last = this.items[lastItemIndex];
     return last;
   }
@@ -40,4 +41,4 @@ class Iterator {
   
 }
 
-modules.exports = Iterator; 
+module.exports = Iterator; 
