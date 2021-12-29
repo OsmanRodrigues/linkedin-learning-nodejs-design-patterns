@@ -1,3 +1,9 @@
+/** The Command design pattern is a set of objects that 
+ * work together to execute a specific action on the client. 
+ * It's useful to encapsulate requests, in order to dealing 
+ * with different requests or queue, and support undoable 
+ * operations. 
+ **/
 const conductor = require('./Conductor');
 const { createInterface } = require('readline');
 const ExitCommand = require('./ExitCommand');
