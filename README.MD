@@ -11,6 +11,7 @@
 <li>Composite</li>
 <li>Decorator</li>
 <li>Factory</li>
+<li>Iterator</li>
 <li>Observer</li>
 <li>Prototype</li>
 <li>Proxy</li>
