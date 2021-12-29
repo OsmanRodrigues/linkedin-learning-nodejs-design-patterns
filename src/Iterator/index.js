@@ -1,3 +1,8 @@
+/** The Iterator design pattern is very common and it allows 
+ * us interacting with lists, collections, arrays or any type 
+ * of aggregate object from a giving uniform interface. It's 
+ * useful to iterate throughtout those objects in custom ways. 
+ **/
 const Iterator = require('./Iterator');
 const Inventory = require('./Inventory');
 const { emitKeypressEvents } = require('readline');
