@@ -1,6 +1,6 @@
 class ExitCommand {
   
-  get greentings() {
+  get greetings() {
     return 'Exit. Bye!'
   }
 
